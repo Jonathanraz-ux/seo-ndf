@@ -1,6 +1,6 @@
 import { MetadataRoute } from 'next';
 
-const baseUrl = 'https://noctis-digital-forge.netlify.app';
+const baseUrl = 'https://referencement-ndf.netlify.app';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   return [

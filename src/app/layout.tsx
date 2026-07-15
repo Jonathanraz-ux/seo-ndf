@@ -10,7 +10,7 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://noctis-digital-forge.netlify.app'),
+  metadataBase: new URL('https://referencement-ndf.netlify.app'),
   title: {
     default: "Noctis Digital Forge | Agence Web Premium",
     template: "%s | Noctis Digital Forge"
@@ -54,9 +54,9 @@ const jsonLd = {
   "@graph": [
     {
       "@type": "Organization",
-      "@id": "https://noctis-digital-forge.netlify.app/#organization",
+      "@id": "https://referencement-ndf.netlify.app/#organization",
       "name": "Noctis Digital Forge",
-      "url": "https://noctis-digital-forge.netlify.app",
+      "url": "https://referencement-ndf.netlify.app",
       "contactPoint": {
         "@type": "ContactPoint",
         "email": "jonathanrazafiarijaona@gmail.com",
@@ -66,20 +66,20 @@ const jsonLd = {
     },
     {
       "@type": "WebSite",
-      "@id": "https://noctis-digital-forge.netlify.app/#website",
-      "url": "https://noctis-digital-forge.netlify.app",
+      "@id": "https://referencement-ndf.netlify.app/#website",
+      "url": "https://referencement-ndf.netlify.app",
       "name": "Noctis Digital Forge",
       "publisher": {
-        "@id": "https://noctis-digital-forge.netlify.app/#organization"
+        "@id": "https://referencement-ndf.netlify.app/#organization"
       }
     },
     {
       "@type": "ProfessionalService",
       "name": "Noctis Digital Forge",
-      "image": "https://noctis-digital-forge.netlify.app/favicon.ico",
+      "image": "https://referencement-ndf.netlify.app/favicon.ico",
       "email": "jonathanrazafiarijaona@gmail.com",
       "telephone": "+261349320184",
-      "url": "https://noctis-digital-forge.netlify.app"
+      "url": "https://referencement-ndf.netlify.app"
     }
   ]
 };

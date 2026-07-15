@@ -1,7 +1,7 @@
 import { MetadataRoute } from 'next';
 
 export default function robots(): MetadataRoute.Robots {
-  const baseUrl = 'https://noctis-digital-forge.netlify.app';
+  const baseUrl = 'https://referencement-ndf.netlify.app';
 
   return {
     rules: {
